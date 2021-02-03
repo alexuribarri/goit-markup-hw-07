@@ -180,8 +180,8 @@ input[type='radio'].visually-hidden {
   min-height: 600px;
   width: 1600px;
   background-color: #c4c4c4;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../images/hero.jpg);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/hero.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
   padding-top: 200px;
 }
 
@@ -532,6 +532,7 @@ input[type='radio'].visually-hidden {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+  font-weight: 700;
 }
 
 .social-container {
@@ -603,28 +604,28 @@ input[type='radio'].visually-hidden {
 }
 
 .subscribe::-webkit-input-placeholder {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
 }
 
 .subscribe:-ms-input-placeholder {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
 }
 
 .subscribe::-ms-input-placeholder {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
 }
 
 .subscribe::placeholder {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
@@ -640,7 +641,7 @@ input[type='radio'].visually-hidden {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border: none;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
@@ -729,7 +730,6 @@ input[type='radio'].visually-hidden {
 .modal-body {
   text-align: center;
   width: 448px;
-  height: 342px;
   margin: 40px 40px;
 }
 
@@ -768,7 +768,7 @@ input[type='radio'].visually-hidden {
 }
 
 .comment-input::-webkit-input-placeholder {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.01em;
@@ -776,7 +776,7 @@ input[type='radio'].visually-hidden {
 }
 
 .comment-input:-ms-input-placeholder {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.01em;
@@ -784,7 +784,7 @@ input[type='radio'].visually-hidden {
 }
 
 .comment-input::-ms-input-placeholder {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.01em;
@@ -792,7 +792,7 @@ input[type='radio'].visually-hidden {
 }
 
 .comment-input::placeholder {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.01em;

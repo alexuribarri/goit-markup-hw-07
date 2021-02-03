@@ -40,7 +40,7 @@
     right: 0;
     top: 0;
     transform: translate(-8px, 8px);
-    fill: #000000;
+    fill: $mainblack;
     transition: fill $sitetransit;
   }
 
@@ -64,7 +64,6 @@
 .modal-body {
   text-align: center;
   width: 448px;
-  height: 342px;
   margin: 40px 40px;
 }
 .data-form {
@@ -100,7 +99,7 @@
   }
 
   &::placeholder {
-    font-family: Roboto;
+    font-family: $mainfont;
     font-size: 14px;
     line-height: 1.143;
     letter-spacing: 0.01em;
@@ -115,7 +114,7 @@
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: $fontcolor;
   margin-bottom: 12px;
 }
 
@@ -124,7 +123,7 @@
   font-size: 12px;
   line-height: 1.167;
   letter-spacing: 0.01em;
-  color: #757575;
+  color: $secondary-color;
 }
 
 .data-form .modal-label:not(:last-of-type) {
@@ -137,7 +136,7 @@
 
 .modal-icon {
   & {
-    fill: #212121;
+    fill: $fontcolor;
     height: 18px;
     width: 18px;
     position: absolute;
@@ -213,7 +212,7 @@
     box-sizing: border-box;
     border: none;
     background-color: $corpcolor;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px $boxshadowcolor;
     border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
@@ -225,7 +224,7 @@
 
   &:hover,
   &:focus {
-    background-color: #188ce8;
+    background-color: $hovercolor;
     cursor: pointer;
   }
 }
@@ -235,13 +234,13 @@
   line-height: 1.5;
   letter-spacing: 0.03em;
   text-decoration-line: underline;
-  color: #2196f3;
+  color: $corpcolor;
 }
 .terms-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: $secondary-color;
   margin-right: 4px;
   margin-left: 22px;
 }

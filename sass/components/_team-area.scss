@@ -32,7 +32,7 @@
   margin-bottom: 10px;
 }
 .team-role {
-  color: #757575;
+  color: $secondary-color;
 }
 .social-container-team {
   display: flex;
@@ -65,7 +65,7 @@
 
 .social-icon {
   & {
-    fill: #afb1b8;
+    fill: $iconcolor;
     transition: fill $sitetransit;
   }
 

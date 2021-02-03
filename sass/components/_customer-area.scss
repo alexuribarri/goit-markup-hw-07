@@ -12,7 +12,7 @@
 
 .customer-icon {
   & {
-    fill: #afb1b8;
+    fill: $iconcolor;
     transition: fill $sitetransit;
   }
 
@@ -26,7 +26,7 @@
   & {
     width: 170px;
     height: 90px;
-    border: 1px solid #afb1b8;
+    border: 1px solid $iconcolor;
     box-sizing: border-box;
     border-radius: 4px;
     display: flex;

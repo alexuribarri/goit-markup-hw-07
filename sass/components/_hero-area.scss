@@ -3,12 +3,12 @@
   margin: 0 auto;
   min-height: 600px;
   width: 1600px;
-  background-color: #c4c4c4;
+  background-color: $herobckgcolor;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../../images/hero.jpg);
+    url(../images/hero.jpg);
   padding-top: 200px;
 }
 .main-title {
@@ -30,7 +30,7 @@
   display: inline-block;
   width: 200px;
   background-color: $corpcolor;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px $boxshadowcolor;
   border-radius: 4px;
   padding: 15px 0;
 }
