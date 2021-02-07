@@ -151,7 +151,8 @@
   }
 }
 
-.text-input:focus {
+.text-input:focus,
+.comment-input:focus {
   border-color: $corpcolor;
   outline: none;
 }
